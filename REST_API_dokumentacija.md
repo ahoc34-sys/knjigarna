@@ -3,7 +3,7 @@
 ## Splošne informacije
 
 - **Lokalni URL:** `http://localhost:8888/knjigarna/api`
-- **Produkcijski URL:** po postavitvi na hosting
+- **Produkcijski URL:** `https://knjigarna.infinityfreeapp.com`
 - **Format:** JSON
 - **Kodiranje:** UTF-8
 
