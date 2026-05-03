@@ -2,7 +2,8 @@
 
 ## Splošne informacije
 
-- **Base URL:** `http://localhost:8888/knjigarna/api`
+- **Lokalni URL:** `http://localhost:8888/knjigarna/api`
+- **Produkcijski URL:** po postavitvi na hosting
 - **Format:** JSON
 - **Kodiranje:** UTF-8
 
