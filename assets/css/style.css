@@ -1,0 +1,218 @@
+/* Splošno (Stil vijolična+zlata)*/
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #2d1b4e !important;
+    border-bottom: none !important;
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #fff !important;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+    color: rgba(255,255,255,0.8) !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #f0c040 !important;
+    font-weight: 600;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(135deg, #1a0533 0%, #2d1b4e 60%, #4a2d7a 100%);
+    color: white;
+    padding: 80px 0;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    opacity: 0.85;
+    margin-bottom: 28px;
+}
+
+.hero .btn-light {
+    background-color: #f0c040;
+    border: none;
+    color: #1a0533;
+    font-weight: 600;
+}
+
+.hero .btn-light:hover {
+    background-color: #e0b030;
+}
+
+.hero .btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+}
+
+.hero .btn-outline-light:hover {
+    background-color: rgba(255,255,255,0.15);
+}
+
+/* Filter kategorij */
+.filter-pill {
+    display: inline-block;
+    padding: 5px 14px;
+    margin: 3px;
+    border-radius: 20px;
+    border: 1px solid #c9b8e8;
+    background: white;
+    cursor: pointer;
+    font-size: 0.85rem;
+    color: #4a2d7a;
+    transition: all 0.2s;
+}
+
+.filter-pill:hover,
+.filter-pill.aktiven {
+    background: #4a2d7a;
+    color: white;
+    border-color: #4a2d7a;
+}
+
+/* Knjižna kartica */
+.knjiga-kartica {
+    border: 1px solid #e0d6f5;
+    border-radius: 8px;
+    overflow: hidden;
+    background: white;
+    transition: transform 0.2s, box-shadow 0.2s;
+    height: 100%;
+}
+
+.knjiga-kartica:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(74,45,122,0.15);
+}
+
+.knjiga-slika-wrap {
+    position: relative;
+    height: 220px;
+    overflow: hidden;
+    background: #ede8f5;
+}
+
+.knjiga-slika-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.knjiga-avtor-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: rgba(45,27,78,0.75);
+    color: white;
+    font-size: 0.7rem;
+    padding: 2px 7px;
+    border-radius: 20px;
+    max-width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.knjiga-vsebina {
+    padding: 12px;
+}
+
+.knjiga-naslov {
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: #2d1b4e;
+}
+
+.knjiga-opis {
+    font-size: 0.8rem;
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+/* Gumbi */
+.btn-primary {
+    background-color: #4a2d7a !important;
+    border-color: #4a2d7a !important;
+}
+
+.btn-primary:hover {
+    background-color: #3a2060 !important;
+    border-color: #3a2060 !important;
+}
+
+.btn-success {
+    background-color: #2d7a4a !important;
+    border-color: #2d7a4a !important;
+}
+
+/* Footer  */
+footer {
+    background-color: #2d1b4e !important;
+    color: #ccc !important;
+}
+
+footer h5, footer h6 {
+    color: #fff !important;
+}
+
+footer .text-secondary,
+footer p,
+footer li {
+    color: #b0a0cc !important;
+}
+
+footer a {
+    color: #b0a0cc !important;
+}
+
+footer a:hover {
+    color: #f0c040 !important;
+}
+
+/* Košarica badge */
+#stKosarici {
+    font-size: 0.7rem;
+    background-color: #f0c040 !important;
+    color: #1a0533;
+}
+
+/* Vse knjige gumb na index.php */
+.btn-outline-primary {
+    color: #4a2d7a !important;
+    border-color: #4a2d7a !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: #4a2d7a !important;
+    color: white !important;
+}
