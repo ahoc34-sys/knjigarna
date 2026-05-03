@@ -4,6 +4,7 @@
 
 - **Lokalni URL:** `http://localhost:8888/knjigarna/api`
 - **Produkcijski URL:** `https://knjigarna.infinityfreeapp.com`
+- **GitHub:** `https://github.com/ahoc34-sys/knjigarna`
 - **Format:** JSON
 - **Kodiranje:** UTF-8
 
